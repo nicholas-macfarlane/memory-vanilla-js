@@ -2,7 +2,18 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style lang="css">
+        #footer {
+            color:aquamarine;
+        }
+        #footer a {
+            text-decoration: none;
+            color: rgb(21, 89, 74);
+        }
+        #footer a:hover {
+            color:aquamarine;
+        }
         body {
+            overflow:hidden;
             background-color: black;
             text-align: center;
         }
@@ -189,8 +200,14 @@
             }
         }
     }
+    
     this.theGame = new game();
     this.theGame.prepareDeck(this.theGame);
+    this.footer = document.createElement("span");
+    this.footer.innerHTML = 
+      "nmacfarlane - 2020 <a href='https://codepen.io/nmacfarlane/full/abOrWRy' target='_blank'>CodePen</a> <a href='https://github.com/nicholas-macfarlane/memory-vanilla-js' target='_blank'>Github</a>";
+    this.footer.id = "footer";
+    document.body.append(this.footer);
         });
     </script>
     <title>Memory</title>
