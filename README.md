@@ -4,8 +4,11 @@ Development environment: [Visual Studio Code](https://code.visualstudio.com/) (f
 
 # basic rules
 Two players(using the same device - see [hotseat](https://en.wikipedia.org/wiki/Hotseat_(multiplayer_mode))) take turns clicking two black "cards" to flip them and reveal the letters on the other side.
+
 After a small delay(so the second card can be viewed) the cards will be flipped back over, if they didn't match.
+
 If they match, you score a point, and those cards cannot be flipped again(they turn green to signify this).
+
 Remembering what's under the cards that haven't been matched yet is the key to winning. :)
 
 
@@ -13,6 +16,8 @@ Remembering what's under the cards that haven't been matched yet is the key to w
 I'm a fan of hot-seat style games, and one day I thought I'd make a simple game with no frameworks / images/ etc.
 
 I remember playing a game like this as a child, where you'd take turns flipping over cards to try and match them, and thought that would be a good candidate for a game. 
+
+You can recreate this physically wth as much of a deck of poker cards as you like - just match red-to-red, black-to-black, for each card value. Or leave out one color and make it simpler. :)
 
 I would also like to think that being able to play a friendly game with your quarantine-mates can help make these times more bearable.
 
