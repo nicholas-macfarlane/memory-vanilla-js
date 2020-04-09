@@ -1,6 +1,6 @@
 # memory-vanilla-js
-Memory / Concentration game written with no frameworks
-
+Single-file Memory / Concentration game written in vanilla JS, with no external dependencies, build tools, or resource files.
+Development environment: [Visual Studio Code](https://code.visualstudio.com/) (free)
 
 # basic rules
 Two players(using the same device - see [hotseat](https://en.wikipedia.org/wiki/Hotseat_(multiplayer_mode))) take turns clicking two black "cards" to flip them and reveal the letters on the other side.
