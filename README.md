@@ -3,7 +3,7 @@ Memory / Concentration game written with no frameworks
 
 
 # basic rules
-Players take turns clicking two black "cards" to flip them and reveal the letters on the other side.
+Two players(using the same device - see [hotseat](https://en.wikipedia.org/wiki/Hotseat_(multiplayer_mode))) take turns clicking two black "cards" to flip them and reveal the letters on the other side.
 After a small delay(so the second card can be viewed) the cards will be flipped back over, if they didn't match.
 If they match, you score a point, and those cards cannot be flipped again(they turn green to signify this).
 Remembering what's under the cards that haven't been matched yet is the key to winning. :)
