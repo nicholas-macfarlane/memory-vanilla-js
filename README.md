@@ -27,5 +27,5 @@ A feature which would be nice for most games is color-coding based on the player
 
 # forking
 Do it! Fork this project, play with it, make your own game, your own style, create and learn! 
-Ths code is nowhere nesr perfect, so there's a lot of opportunity to find better ways to do things(one that I can point out is the way I'm generating the character pairs). :)
+Ths code is nowhere near perfect, so there's a lot of opportunity to find better ways to do things(one that I can point out is the way I'm generating the character pairs - at least, I haven't "fixed" at the time of this writing). :)
 
