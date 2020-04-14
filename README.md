@@ -50,6 +50,6 @@ This code is nowhere near perfect, so there's a lot of opportunity to find bette
 
 It's my mission to one day be able focus completely on things that bring joy, knowledge, and inspiration to me, and hopefully to others as well.
 
-I haven't currently set up any specific system for payments, but if you really want to support my creativity, request me for a project, or request additions to this one, [open an issue] in this repository with a descriptive name that indicates the nature of your request, and I'll have a look. :)
+I haven't currently set up any specific system for payments, but if you really want to support my creativity, request me for a project, or request additions to this one, [open an issue](https://github.com/nicholas-macfarlane/memory-vanilla-js/issues) in this repository with a descriptive name that indicates the nature of your request, and I'll have a look. :)
 
 
