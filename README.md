@@ -1,5 +1,5 @@
-# memory-vanilla-js
-Single-file Memory / Concentration game written in vanilla JS, with no external dependencies, build tools, or resource files.
+# [memory-vanilla-js](http://www.nmacfarlane.tk/games/memory-vanilla-js/)
+Single-file Memory / Concentration game written in [vanilla JS](http://vanilla-js.com/), with no external dependencies, build tools, or resource files.
 Development environment: [Visual Studio Code](https://code.visualstudio.com/) (free)
 
 # basic rules
@@ -7,7 +7,9 @@ Two players(using the same device - see [hotseat](https://en.wikipedia.org/wiki/
 
 After a small delay(so the second card can be viewed) the cards will be flipped back over, if they didn't match.
 
-If they match, you score a point, and those cards cannot be flipped again(they turn green to signify this).
+If they match, you score a point, and those cards cannot be flipped again. They turn green to signify this, but you can always view any matched card's value by hovering over it.
+
+The player with the highest score, once all cards are matched, will receive a +1 to their win count, with no points awarded for a tie, and the cards are reshuffled for the next match.
 
 Remembering what's under the cards that haven't been matched yet is the key to winning. :)
 
