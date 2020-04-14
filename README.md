@@ -45,3 +45,11 @@ A feature which would be nice for most games is color-coding based on the player
 Do it! Fork this project, play with it, make your own game, your own style, create and learn! 
 This code is nowhere near perfect, so there's a lot of opportunity to find better ways to do things(one that I can point out is the way I'm generating the character pairs or even just adding more pairs of cards for a harder game). :)
 
+# issues / features / project requests / donations
+"Free time" for this developer is taking a break from other people's projects and doing something fun and personal - this might be coding, gaming, travelling(when the global situation allows), but considering the shortage of devs out there, it's also expensive to indulge in. 
+
+It's my mission to one day be able focus completely on things that bring joy, knowledge, and inspiration to me, and hopefully to others as well.
+
+I haven't currently set up any specific system for payments, but if you really want to support my creativity, request me for a project, or request additions to this one, [open an issue] in this repository with a descriptive name that indicates the nature of your request, and I'll have a look. :)
+
+
