@@ -1,5 +1,6 @@
 # [memory-vanilla-js](http://www.nmacfarlane.tk/games/memory-vanilla-js/)
 Single-file Memory / Concentration game written in [vanilla JS](http://vanilla-js.com/), with no external dependencies, build tools, or resource files.
+
 Development environment: [Visual Studio Code](https://code.visualstudio.com/) (free)
 
 # basic rules
@@ -15,11 +16,11 @@ Remembering what's under the cards that haven't been matched yet is the key to w
 
 
 # purpose
-I'm a fan of hot-seat style games, and one day I thought I'd make a simple game with no frameworks / images/ etc.
+I'm a fan of hot-seat style games, and one day I thought I'd make a simple game with no frameworks/images/etc.
 
 I remember playing a game like this as a child, where you'd take turns flipping over cards to try and match them, and thought that would be a good candidate for a game. 
 
-You can recreate this physically wth as much of a deck of poker cards as you like - just match red-to-red, black-to-black, for each card value. Or leave out one color and make it simpler. :)
+You can recreate this physically with as much of a deck of poker cards as you like - just match red-to-red, black-to-black, for each card value. Or leave out one color and make it simpler. :)
 
 I would also like to think that being able to play a friendly game with your quarantine-mates can help make these times more bearable.
 
@@ -44,8 +45,9 @@ I might go back and add a typewriter effect to the console some day.
 A feature which would be nice for most games is color-coding based on the player, but which I feel would take away from the overall low-tech, found an old computer in the basement kind of feeling I was going for.
 
 # forking
-Do it! Fork this project, play with it, make your own game, your own style, create and learn! 
-This code is nowhere near perfect, so there's a lot of opportunity to find better ways to do things(one that I can point out is the way I'm generating the character pairs or even just adding more pairs of cards for a harder game). :)
+Do it! Fork this project, play with it, make your own game, your own style, create and learn!
+
+This code is *nowhere near* perfect, so there's a lot of opportunity to find better ways to do things(one that I can point out is the way I'm generating the character pairs or even just adding more pairs of cards for a harder game). :)
 
 # issues / features / project requests / donations
 "Free time" for this developer is taking a break from other people's projects and doing something fun and personal - this might be coding, gaming, travelling(when the global situation allows), but considering the shortage of devs out there, it's also expensive to indulge in. 
