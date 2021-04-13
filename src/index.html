@@ -134,7 +134,7 @@
                 game.currentPlayer > 1 ? game.currentPlayer = 1 : game.currentPlayer = 2;
                 game.updateScore(game);
                 game.flippedCardsCount = 0;
-                if ( game.score[0] + game.score[1] === 8) {
+                if ( game.score[0] + game.score[1] === 7) {
                     if (game.score[0] > game.score[1]) game.wins[0]++;
                     if (game.score[1] > game.score[0]) game.wins[1]++; 
                     game.currentPlayer = 1;
