@@ -30,7 +30,7 @@ All in one file, and written that way intentionally - this is supposed to be abo
 
 This isn't best practice - professional developers wil split their code among as many files as it makes sense to split it among(being able to understand and manage the complexity as the human being writing the code is important!), and build that project into fewer files before deploying.
 
-If I were going to use any frameworks or libraries here, I'd have used Vue.js for sure, and likely FontAwesome and Bootstrap as well. 
+If I were going to use any frameworks or libraries here, I'd have used Vue.js for sure. 
 
 In general, if you're using jQuery, you're just slowing down page loads for things you can implement in vanilla JS.
 
