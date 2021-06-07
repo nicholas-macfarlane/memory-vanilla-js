@@ -1,4 +1,4 @@
-# [memory-vanilla-js](http://www.nmacfarlane.tk/games/memory-vanilla-js/)
+# [memory-vanilla-js](https://codepen.io/nmacfarlane/full/abOrWRy)
 Single-file Memory / Concentration game written in [vanilla JS](http://vanilla-js.com/), with no external dependencies, build tools, or resource files.
 
 Development environment: [Visual Studio Code](https://code.visualstudio.com/) (free)
@@ -14,6 +14,8 @@ The player with the highest score, once all cards are matched, will receive a +1
 
 Remembering what's under the cards that haven't been matched yet is the key to winning. :)
 
+# how to play / quick start
+You can play immediately from the [CodePen](https://codepen.io/nmacfarlane/full/abOrWRy), or simply download the src folder and open the html file locally on your computer, no webserver required.
 
 # purpose
 I'm a fan of hot-seat style games, and one day I thought I'd make a simple game with no frameworks/images/etc.
