@@ -1,7 +1,10 @@
-# [memory-vanilla-js](http://www.nmacfarlane.tk/games/memory-vanilla-js/)
-Single-file Memory / Concentration game written in [vanilla JS](http://vanilla-js.com/), with no external dependencies, build tools, or resource files.
+# [memory-vanilla-js]
 
-Development environment: [Visual Studio Code](https://code.visualstudio.com/) (free)
+Single-file(Now modularized!) Memory / Concentration game written in [vanilla JS](http://vanilla-js.com/), with no external dependencies*, build tools*, or resource files.
+
+*ES6 Module imports/exports(vs pre-bundling with a tool) require a web server hosting the files.
+
+Development environment: [Visual Studio Code](https://code.visualstudio.com/) (free, using [Live Server extension for local development](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer))
 
 # basic rules
 Two players(using the same device - see [hotseat](https://en.wikipedia.org/wiki/Hotseat_(multiplayer_mode))) take turns clicking two black "cards" to flip them and reveal the letters on the other side.
@@ -26,23 +29,34 @@ I would also like to think that being able to play a friendly game with your qua
 
 
 # code
-All in one file, and written that way intentionally - this is supposed to be about as simple as it can get, with opportunities for refactoring. 
+Originally all in one file, and written that way intentionally - it was supposed to be about as simple as it could get, with opportunities for refactoring. 
 
-This isn't best practice - professional developers wil split their code among as many files as it makes sense to split it among(being able to understand and manage the complexity as the human being writing the code is important!), and build that project into fewer files before deploying.
+This wasn't best practice - professional developers wil split their code among as many files as it makes sense to split it among(being able to understand and manage the complexity as the human being writing the code is important!), and build that project into fewer files before deploying.
 
-If I were going to use any frameworks or libraries here, I'd have used Vue.js for sure. 
+This pass through the code, I've broken the code up into smaller logical modules, utilizing ES6 imports and exports, as well as moved the static css to a single file, imported by the index.
 
-In general, if you're using jQuery, you're just slowing down page loads for things you can implement in vanilla JS.
+This setup makes management of the code much simpler, and paves the way for separation of concerns between a server and client(for future online multiplayer), much smoother refactoring, adding TypeScript, and/or implementation of automated testing.
 
-To elaborate, [the current version of jQuery, minified, is around 250kB to download](https://mathiasbynens.be/demo/jquery-size), which means this game, at < 3kB, would take over 83x the time to download. If you're getting a zipped and minified version, at about 28kB, then it would only take somewhere over 9x the time to download.
+I've "renamed" a handful of functions in constants.js, I'm not saying you should, I'm just saying I did.
+
+There's also the future consideration of using an existing js framework(such as Vue, or React), or even creating one from scratch.
+
+In general, if you're using jQuery, you're still just slowing down page loads for things you can implement in vanilla JS.
+
+To elaborate, [the current version of jQuery, in full, is around 250kB to download](https://mathiasbynens.be/demo/jquery-size), which means this game, at < 12kB, would take over 21x the time to download. If you're getting a zipped and minified version, at about 28kB, then it would only take somewhere over 3x the time to download.
+
+The overall file size of this game project, unbundled, has increased around 4x after moving to ES6 modules.
 
 
 # design
 I wanted to go for the aesthetic of an old computer running the game, which works well with the lack of images, and is emphasized by the styling and "console" where the score and current player's turn are displayed.
 
-I might go back and add a typewriter effect to the console some day.
+Feature in consideration:
 
-A feature which would be nice for most games is color-coding based on the player, but which I feel would take away from the overall low-tech, found an old computer in the basement kind of feeling I was going for.
+Typewriter/cursor effect
+More feedback onscreen/in console
+
+A feature which would be nice for most games is color-coding based on the player, but I feel would take away from the overall monochrome, low-tech, found-an-old-computer-in-the-basement kind of feeling I was going for.
 
 # forking
 Do it! Fork this project, play with it, make your own game, your own style, create and learn!
