@@ -1,0 +1,10 @@
+#footer {
+    color:aquamarine;
+}
+#footer a {
+    text-decoration: none;
+    color: rgb(21, 89, 74);
+}
+#footer a:hover {
+    color:aquamarine;
+}
