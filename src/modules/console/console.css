@@ -1,0 +1,22 @@
+#console-div{
+    margin-left: -.5em;
+}
+#console-wrapper {
+    width: 100vw;
+    color: #12995B;
+    font-family: 'Courier New', Courier, monospace;
+}
+#console {
+    color:#7EC37E;
+    border: 1px solid rgb(01, 89, 54);
+    width: 20em;
+    height: 14em;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(22, 26, 26);            
+}
+#scoring {
+    margin-left: 1em;
+    text-align: left;
+}
