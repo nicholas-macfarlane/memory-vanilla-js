@@ -14,3 +14,5 @@ export const set = (element, attribute, value)=> {
 //links
 export const codePen = ()=> "https://codepen.io/nmacfarlane/full/abOrWRy";
 export const gitHub = ()=> "https://github.com/nicholas-macfarlane/memory-vanilla-js";
+export const author = ()=> "nmacfarlane";
+export const year = ()=> "2021";
