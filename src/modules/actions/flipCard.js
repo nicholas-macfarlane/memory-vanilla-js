@@ -1,4 +1,4 @@
-import { get } from "../engine/constants.js"
+import { get, log } from "../engine/constants.js"
 import { data } from "../data.js"
 import { style } from "../style/style.js"
 import { checkMatch } from "../engine/checkMatch.js";
@@ -15,7 +15,7 @@ export const flipCard = (index)=> {
 
         if (data.flippedCardsCount === 2) 
         {
-           console.log("flipped and checking... ");
+           log("flipped and checking...");
            setTimeout(checkMatch, 1000);
         }
    }

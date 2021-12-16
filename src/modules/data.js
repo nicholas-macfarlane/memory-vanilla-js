@@ -2,6 +2,7 @@ export let data = {
     currentPlayer: 1,
     flippedCards: [],
     flippedCardsCount: 0,
+    console: "",
     reset: false,
     score: {
         p1: 0,
