@@ -11,7 +11,6 @@ export const prepareCards = ()=> {
             }
         }
         let value = rules.pairs[index];
-        console.log(`index: ${index}, value: ${value}`)
         createCard(value, index, data.reset);
     };
         if (data.reset === true) {

@@ -6,9 +6,7 @@ import { setAttributes } from "./setAttributes.js";
 export const createCard = (value, index, reset = false)=> {
     let newCard;    
     if (!reset) {
-        newCard = create("button");
-        console.log(newCard);
-        
+        newCard = create("button");        
     } else {
         newCard = get(index);
     }

@@ -1,4 +1,4 @@
-import { get } from "./constants.js"
+import { get, log } from "./constants.js"
 import { data } from "../data.js"
 import { style } from "../style/style.js"
 import { nextTurn } from "./nextTurn.js"
@@ -14,6 +14,7 @@ export function checkMatch() {
         card1.style.color = style.colors.green;
         card2.style.color = style.colors.green;
         data.score[`p${data.currentPlayer}`]++;
+        log("match");
     } else {
         card1.setAttribute("flipped", false);
         card2.setAttribute("flipped", false);
@@ -21,6 +22,7 @@ export function checkMatch() {
         card1.style.backgroundColor = style.colors.black;
         card2.style.color = style.colors.black; 
         card2.style.backgroundColor = style.colors.black
+        log("no match");
     }
     nextTurn();
 }

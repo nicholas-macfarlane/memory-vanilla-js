@@ -7,7 +7,6 @@ export const nextTurn = ()=> {
     data.flippedCards = [];
     data.flippedCardsCount = 0;
     data.currentPlayer > 1 ? data.currentPlayer = 1 : data.currentPlayer = 2;
-    updateConsole();
     checkScore();
     if (data.reset) {
         prepareDeck();
