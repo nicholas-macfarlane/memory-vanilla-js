@@ -13,14 +13,14 @@ export {style} from "../style/style.js";
 export {data} from "../data.js";
 export {footer} from "../footer/footer.js";
 //things that feel action-y
-export {    
+export {
     prepareDeck,
     createCard,
     prepareCards,
     setAttributes,
     updateConsole,
     flipCard,
-    shuffle     
+    shuffle
 } from "../actions/actions.js";
 //things that feel event-y
 export {
