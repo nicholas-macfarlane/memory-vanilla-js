@@ -7,7 +7,7 @@ export const create = (tag) => {
 }
 export const get = (id) => {
     return document.getElementById(id);
-} 
+}
 export const append = (element)=> {
     document.body.appendChild(element);
 }
