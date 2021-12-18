@@ -1,7 +1,7 @@
 # [memory-vanilla-js]
 [Modularized](https://codesandbox.io/s/memory-vanilla-js-es-module-qft3o) Memory / Concentration game written in [vanilla JS](http://vanilla-js.com/), with no external dependencies*, build tools*, or resource files.
 
-[Single-file legeacy version](https://codepen.io/nmacfarlane/full/abOrWRy)
+[Single-file legacy version](https://codepen.io/nmacfarlane/full/abOrWRy)
 
 *ES Module imports/exports(vs pre-bundling with a tool) require a web server hosting the files.
 
