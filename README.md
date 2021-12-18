@@ -19,7 +19,7 @@ The player with the highest score, once all cards are matched, will receive a +1
 Remembering what's under the cards that haven't been matched yet is the key to winning. :)
 
 # how to play / quick start
-You can play immediately from the [CodePen](https://codepen.io/nmacfarlane/full/abOrWRy), or simply download the src folder and open the html file locally on your computer, no webserver required.
+You can play immediately from the [Modularized](https://codesandbox.io/s/memory-vanilla-js-es-module-qft3o), or simply clone this project, open in VS Code, and launch index.html in the Live Server(see development environment above), or the web server of your choice for advanced users. :)
 
 # purpose
 I'm a fan of hot-seat style games, and one day I thought I'd make a simple game with no frameworks/images/etc.
