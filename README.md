@@ -65,6 +65,6 @@ This code is *nowhere near* perfect, so there's a lot of opportunity to find bet
 
 It's my mission to one day be able focus completely on things that bring joy, knowledge, and inspiration to me, and hopefully to others as well.
 
-If you really want to support my creativity, request me for a project, or comment on this one, feel free to invest in me via [PayPal](https://www.paypal.com/paypalme/namacfarlane), [CashApp](https://cash.app/$nmacfarlane), [open an issue](https://github.com/nicholas-macfarlane/memory-vanilla-js/issues), or cheer silently from behind your keyboard, all are great options. :D
+If you really want to support my creativity, request me for a project, or comment on this one, feel free to invest in me via [PayPal](https://www.paypal.com/paypalme/namacfarlane), [open an issue](https://github.com/nicholas-macfarlane/memory-vanilla-js/issues), or cheer silently from behind your keyboard, all are great options. :D
 
 
